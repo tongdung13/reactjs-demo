@@ -1,0 +1,77 @@
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    border: 1px solid #BFBFBF;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.title {
+    position: absolute;
+    top: 10px;
+    left: 40.6%;
+    color: #FF7A00;
+}
+
+.form {
+    position: absolute;
+    top: 75px;
+    left: 10px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10px;
+}
+
+.input {
+    width: 445px;
+    height: 26px;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border: 0.5px solid #BFBFBF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input:hover {
+    border: 0.5px solid red !important;
+    outline: unset !important;
+}
+
+.input:focus-visible {
+    border: 0.5px solid red !important;
+    outline: unset !important;
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.submit {
+    background-color: red;
+    color: white;
+    height: 38px;
+    width: 92px;
+    border: 0.5px solid #BFBFBF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 12px;
+    font-style: normal;
+}
